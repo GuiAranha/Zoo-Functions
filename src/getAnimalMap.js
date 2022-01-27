@@ -1,7 +1,5 @@
 const data = require('../data/zoo_data');
 
-/* const find = (location) => data.species.filter((specie) => specie.location === location)
-  .map((specie) => specie.name); */
 const locations = ['NE', 'NW', 'SE', 'SW'];
 const getSpecies = (location) => data.species.filter((specie) => specie.location === location);
 const animals = locations.map((location) => getSpecies(location));
