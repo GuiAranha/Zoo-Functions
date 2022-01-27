@@ -54,15 +54,5 @@ function getAnimalMap(options) {
   }
   return sexAndSorted(options);
 }
-  /* 
-  if (options.includeNames === true) {
-    if (options.sorted === true) {
-    return getAnimalsNamesSort();
-    }
-    return getAnimalsNames();
-  }
-  if (!options.sex) {
-    return getAnimalsNamesSex(options.sex);
-  } */
 
 module.exports = getAnimalMap;
